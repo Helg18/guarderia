@@ -140,6 +140,14 @@ p{
 	padding: 18px;
 }
 
+.footer{
+	color: inherit;
+	text-align: center;
+	font-size: 12px;
+	font-style: italic;
+	text-transform: capitalize;
+}
+
 /*animaciones*/
 @keyframes cambio {
 	0%{margin-left: 0;}

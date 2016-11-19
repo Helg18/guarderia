@@ -58,8 +58,8 @@
     </div>
   </div>
     <footer class="row">
-      <p>
-        Las hermanas carmelitas (r) 2016 (C) Reservados todos los derechos
+      <p class="footer">
+        Las hermanas carmelitas (r) 2016 (C) Reservados todos los derechos <br> <a href="https://github.com/helg18" target="_blank">Ing. Henry Leon </a>
       </p>
     </footer>
   </body>
