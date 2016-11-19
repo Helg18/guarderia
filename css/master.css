@@ -45,6 +45,7 @@ body {
 	font: 14px/20px "Trebuchet MS", Verdana, Helvetica, Arial, sans-serif;
 	background-color: #000000;
   color: #FFFFFF;
+	text-align: justify;
 }
 
 .menu {
@@ -71,7 +72,7 @@ body {
 	margin: 5px;
 	border-radius: 10px;
   width: 100%;
-  float: left;
+	display: block;
   background-color: #5c1000;
   padding: 15px;
 }
@@ -118,6 +119,25 @@ a{
 
 p{
 	text-indent: 2em;
+}
+
+.row-white-12{
+	background-color: #FFFFFF;
+	margin: 5px;
+	border-radius: 10px;
+	width: 95%;
+	color: #000000;
+	padding: 15px;
+}
+
+.row-white-6{
+	background-color: #FFFFFF;
+	margin: 9px;
+	border-radius: 10px;
+	width: 44%;
+	display: inline-flex;
+	color: #000000;
+	padding: 18px;
 }
 
 /*animaciones*/
