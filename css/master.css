@@ -1,0 +1,133 @@
+/* Variables de colores */
+/*
+
+Marron
+#5c1000
+
+Marron:hover
+#5c1010
+
+
+Blanco
+#FFFFFF
+
+Negro
+#000000
+
+*/
+
+
+
+/* reset */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* render html5 elements as block */
+header, footer, section, aside, nav, article {
+	display: block;
+}
+
+header{
+  font-size: 36px;
+  font-weight: bolder;
+  text-align: center;
+  padding: 10px;
+  margin: 40px;
+
+}
+
+/* standard body */
+body {
+	margin: 0 auto;
+	width: 980px;
+	font: 14px/20px "Trebuchet MS", Verdana, Helvetica, Arial, sans-serif;
+	background-color: #000000;
+  color: #FFFFFF;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+}
+
+.selected{
+	  background-color: #5c1000;
+	  border-radius: 6px;
+}
+
+.menu>li{
+  padding: 10px;
+  margin: 5px;
+}
+
+.menu>li:hover{
+  background-color: #5c1010;
+  border-radius: 6px;
+}
+
+.row{
+	margin: 5px;
+	border-radius: 10px;
+  width: 100%;
+  float: left;
+  background-color: #5c1000;
+  padding: 15px;
+}
+
+.slider{
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+	margin-left: 2%;
+	overflow: hidden;
+}
+
+.slider ul{
+	display: flex;
+	padding: 0;
+	width: 300%;
+	animation: cambio 10s infinite alternate;
+}
+
+.slider li{
+	border-radius: 15px;
+	width: 100%;
+	overflow: hidden;
+	list-style: none;
+}
+
+.slider img{
+	width: 100%;
+}
+
+.logo{
+	width: 80px;
+	height: 80px;
+	margin-left: 0;
+	padding-right: 50px;
+	text-align: center;
+}
+
+a{
+	text-decoration: underline;
+	color: inherit;
+	cursor: pointer;
+}
+
+p{
+	text-indent: 2em;
+}
+
+/*animaciones*/
+@keyframes cambio {
+	0%{margin-left: 0;}
+	30%{margin-left: 0;}
+
+	36%{margin-left: -100%;}
+	66%{margin-left: -100%;}
+
+	72%{margin-left: -200%;}
+	100%{margin-left: -200%;}
+}
