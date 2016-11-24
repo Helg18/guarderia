@@ -7,7 +7,7 @@
   </head>
   <body>
     <header>
-       Guarderia maternal Madre Maria de San José
+       Guarderia maternal Madre Teresa de San José
     </header>
     <nav>
       <ul class="menu">
